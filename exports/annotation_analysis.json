@@ -1,0 +1,46 @@
+{
+  "record_count": 16,
+  "maximum_score_per_record": 8,
+  "mean_scores": {
+    "evidence_grounding": 1.88,
+    "reasoning_consistency": 1.75,
+    "uncertainty_handling": 1.75,
+    "clarity": 2
+  },
+  "mean_total_score": 7.38,
+  "perfect_score_records": 14,
+  "topic_mean_totals": {
+    "medicine": 6.75,
+    "politics": 8,
+    "pop culture": 6.75,
+    "sport": 8
+  },
+  "records_below_full_score": [
+    {
+      "example_id": "medicine_unknowable_01",
+      "topic": "medicine",
+      "model_classification": "false",
+      "scores": {
+        "evidence_grounding": 1,
+        "reasoning_consistency": 0,
+        "uncertainty_handling": 0,
+        "clarity": 2
+      },
+      "total_score": 3,
+      "reviewer_comment": "The evidence leaves KJ’s long-term transplant need unresolved. Saying the treatment is not currently a cure does not prove that it will fail to prevent a future transplant, so the justification mistakes uncertainty for disproof."
+    },
+    {
+      "example_id": "pop_culture_unknowable_01",
+      "topic": "pop culture",
+      "model_classification": "false",
+      "scores": {
+        "evidence_grounding": 1,
+        "reasoning_consistency": 0,
+        "uncertainty_handling": 0,
+        "clarity": 2
+      },
+      "total_score": 3,
+      "reviewer_comment": "The absence of an authenticated record does not disprove the claim; the uncorroborated recollection leaves it unresolved rather than false."
+    }
+  ]
+}
