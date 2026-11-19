@@ -42,7 +42,8 @@ The evaluation indicates that `gpt-4o-mini` generally produced clear and well-gr
 Argilla was deployed locally at:
 
 ```text
-http://localhost:6900```
+http://localhost:6900
+```
 
 The lab brief recommended a free Hugging Face Space. However, Hugging Face required a paid Pro subscription for the Docker Space needed by Argilla at the time of implementation. The project therefore uses Argilla’s documented local Docker deployment.
 
